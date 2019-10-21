@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="hybrid">
+	<test name="keyword_driven">
+		<classes>
+			<class name="testng.DialogueAlertTest"></class>
+		</classes>
+	</test>
+
+<test name="data_driven">
+	<classes>
+		<class name="datadriven_scenarios.DataproviderTest"></class>
+	</classes>
+</test>
+</suite>
